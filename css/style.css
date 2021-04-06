@@ -1,4 +1,99 @@
-table, tr, td, th {
+*{
+    box-sizing: border-box;
+}
 
-    border: 2px solid black;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #d8ac9c;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    position: relative;
+}
+
+nav ul li{
+    margin-left: 15%;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero{
+    width: 100%;
+    text-align: center;
+}
+#hero img{
+    width: 50%;
+}
+
+#locations .locationList h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    list-style: inside;
+    list-style-type: circle;
+    padding-left: 5px;
+   
+    
+}
+
+.hoursList{
+    margin-top: 25px;
+}
+
+.contact{
+    margin-top: 50px;
+}
+
+#chin{
+    width: 100%;
+    text-align: center;
+}
+#chin img{
+    width: 30%;
+    border-radius: 30px;
+}
+
+
+#images{
+    width: 100%;
+    text-align: center;
+
+}
+#images img{
+    width: 10%;
+}
+
+footer p{
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+    
 }
