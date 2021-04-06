@@ -115,9 +115,9 @@ function footer() {
   let footerRow=document.createElement('tr');
   tableElement.appendChild(footerRow);
 
-  let tdElement=document.createElement('td');
-  footerRow.appendChild(tdElement);
-  tdElement.textContent='Totals';
+  let thElement=document.createElement('th');
+  footerRow.appendChild(thElement);
+  thElement.textContent='Totals';
 
   for (let x = 0; x < workingHours.length; x++) {
     hourlyTotal=0;
@@ -127,14 +127,14 @@ function footer() {
 
     }
 
-    let totalTdElement = document.createElement('td');
-    footerRow.appendChild(totalTdElement);
-    totalTdElement.textContent = hourlyTotal;
+    let totalThElement = document.createElement('th');
+    footerRow.appendChild(totalThElement);
+    totalThElement.textContent = hourlyTotal;
   }
   for (let r = 0; r < cities.length; r++) {
     totalTotal+= cities[r].total;
   }
-  let totalTotalElement=document.createElement('td');
+  let totalTotalElement=document.createElement('th');
   footerRow.appendChild(totalTotalElement);
   totalTotalElement.textContent=totalTotal;
 }
