@@ -1,4 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: whitesmoke;
+}
 table, tr, td, th {
 
-    border: 2px solid black;
+    border: 2px solid #d8ac9c;
+    text-align: center;
+    margin-left: 28%;
+}
+header h1{
+
+    color: #d8ac9c;
+    font-family: cursive;
+    text-align: center;
+    font-size: 35pt;
+}
+
+main a{
+    text-decoration: none;
+    color: #d8ac9c;
+    font-family: cursive;
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-left: 46%;
+}
+
+fieldset{
+    background-color: #d8ac9c;
+    width: 40%;
+    margin-left: 30%;
+    
 }
