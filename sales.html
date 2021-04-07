@@ -12,7 +12,38 @@
         <h1>Pat's Salmon Cookies</h1>
     </header>
     <main>
-        <a href="index.html">Main Page</a>
+      <a href="index.html">Main Page</a>
+      <div class="form">
+      <form action="" id="shopForm">
+        <br>
+        <fieldset>
+          <label for="shopLocation">Shop Location</label>
+          <input type="text" name="shopLocation" id="shopLocation" autocomplete="off" placeholder="Enter a Place (Required)" required >
+          <br>
+          <br>
+
+          <label for="minCusPerHour"> Minimum Number of Customers Per Hour</label>
+          <input type="number" name="minCusPerHour" id="minCusPerHour"  value="1" min="1" max="1000">
+          <br>
+          <br>
+
+          <label for="maxCusPerHour"> Maximum Number of Customers Per Hour</label>
+          <input type="number" name="maxCusPerHour" id="maxCusPerHour"  value="1" min="1" max="1000">
+
+          <br>
+          <br>
+
+          <label for="avgCookiesPerCus"> Average Number of Cookies Purchased by Customer</label>
+          <input type="number" name="avgCookiesPerCus" id="avgCookiesPerCus" step="0.01" autocomplete="off" >
+          <br>
+          <br>
+
+          <input type="submit" value="Submit Here">
+
+        </fieldset>
+      </form>
+<br>
+</div>
         <div id="cities">
 
         </div>
