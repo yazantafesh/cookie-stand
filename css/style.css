@@ -3,26 +3,41 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
     background-color: whitesmoke;
 }
 
 header{
     padding: 30px;
     text-align: center;
-    background-color: #f1f1f1;
-    font-size: 24pt;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: 'Abel', sans-serif;
+    
+}
+h1 {
+    color: #b67162;
+    font-family: 'Abel', sans-serif;
+}
+
+h2{
+    color: #b67162;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px ;
     font-weight: bold;
 }
 
 nav{
     background-color: #d8ac9c;
     margin-bottom: 20px;
+
 }
 
 nav ul{
     position: relative;
+    
 }
 
 nav ul li{
@@ -36,6 +51,8 @@ nav ul li a{
     color: #f2f2f2;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Abel', sans-serif;
+    font-size: 16pt;
 }
 
 #hero{
@@ -43,39 +60,29 @@ nav ul li a{
     text-align: center;
 }
 #hero img{
-    width: 50%;
+    width: 70%;
+    margin-bottom: 30px;
 }
 
-#locations .locationList h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
-    font-weight: bold;
-}
 
 li{
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 14pt;
     list-style: inside;
     list-style-type: circle;
     padding-left: 5px;
+    padding-bottom: 5px;
    
     
 }
 
-.hoursList{
-    margin-top: 25px;
-}
-
-.contact{
-    margin-top: 50px;
-}
 
 #chin{
     width: 100%;
     text-align: center;
 }
 #chin img{
-    width: 30%;
+    width: 70%;
     border-radius: 30px;
 }
 
@@ -86,14 +93,29 @@ li{
 
 }
 #images img{
-    width: 10%;
+    width: 50%;
+    margin-bottom: 30px;
 }
 
 footer p{
     clear: both;
     padding: 20px;
     text-align: center;
-    background-color: #ddd;
+    background-color: #d8ac9c;
     margin-top: 20px;
     
+}
+hr{
+    border: 1px solid #d8ac9c;
+   margin-top: 20px;
+}
+#locations article{
+    margin-left: 13%;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.contact{
+    position: relative;
+    bottom: 60px;
 }
